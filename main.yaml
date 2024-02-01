@@ -1,0 +1,6 @@
+Resources:
+  MonBucketS3:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: mt4-samuel-newbucket
+      AccessControl: Private
